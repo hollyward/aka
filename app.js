@@ -33,6 +33,6 @@ app.get('/', function(req, res){
     res.send(hostname);
     });
     
-app.listen(3000, function(){
+app.listen(port, function(){
     console.log('Server Started on Port 3000');
 })
