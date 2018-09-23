@@ -1,0 +1,17 @@
+{
+  "name": "aka",
+  "version": "1.0.0",
+  "description": "report host name",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Holly Ward",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "*",
+    "ejs": "^2.6.1",
+    "os": "*",
+    "express": "^4.16.3"
+  }
+}
