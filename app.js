@@ -6,8 +6,7 @@ var hostname = os.hostname();
 
 // Using Express
 var app = express();
-const port = 3000
-
+const port = 3000;
 
 // View engine
 app.set('view engine', 'ejs');
@@ -25,7 +24,6 @@ var logger = function(req, res, next){
     console.log('Logging...');
     next();
 }
-
 app.use(logger);
 
 
