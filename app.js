@@ -1,6 +1,8 @@
 var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
+
+// https://nodejs.org/api/os.html
 var os = require("os");
 var hostname = os.hostname();
 
